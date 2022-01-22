@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,700;1,900&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  
+}
+
+/* anime site style */
+.banner-wrap {
+    background: #000 url('../img//Animes.jpg')center center  no-repeat fixed;
+    background-size: cover;
+    color: #fff;
+    width: 100%;
+    display: flex;
+    position: relative;
+    min-height: 500px;
+    
+    
+}
+
+.overlay {
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.83);
+    opacity: .6;
+    position: absolute;
+  
+   
+}
+ h1.banner-title {
+
+  font-size: 60px;
+  z-index: 1;
+    padding-top: 200px;
+    padding-left: 30px;
+    text-shadow: 3px 3px 2px 4px #6cff6ccd;
+    
+}
+
+
+.caption-title {
+    color:#fff;
+    font-size: 3em;
+    font-family: 'Roboro', sans-serif;
+    /* text-shadow: 3px 3px 4px #000000; */
+    text-shadow: 1px 1px 1px rgb(0, 0, 0), 
+    3px 3px 5px #222; 
+    font-weight: bolder;
+}
+/* end anime site style */
+
+.site-container {
+    width: 1920px;
+    max-width: 100%;
+    margin: 0 auto;
+    background: #f1f1f1;
+}
+.container-wrapper {
+    border-top: 6px solid #1db954d0;
+    width: 1136px;
+    max-width: 100%;
+    background: #fff;
+    padding-top: 10px;
+    margin: 0 auto;
+    margin-top: 20px;
+    box-sizing: border-box;
+    border-radius: 12px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.header-row {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 6px;
+    margin-left: 6px;
+}
+.title-header{
+    padding-top: 1px;
+    padding-bottom: 9px;
+    width: 700px;
+    max-width: 100%;
+    padding-top: 24px;
+    padding-bottom: 33px;
+    box-sizing: border-box;
+    position: relative;
+}
+.album-title{
+    color: #222;
+    font-size: 18px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    font-weight: bolder;
+    font-family: 'Roboto',sans-serif;
+}
+.album-title:hover {
+    color: #222;
+    cursor: pointer;
+}
+.link-title {
+    color: #222222;
+    font-size: 18px;
+    font-weight: bolder;
+    font-family: 'Roboto',sans-serif;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+.link-title:hover {
+    text-decoration: none;
+    color: #6ebdfd;
+    background: #f8f7f7;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    cursor: pointer;
+      position: absolute;
+    top: 0px;
+    right: 0px;
+}
+.row-flex {
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 70px;
+}
+.gallery-col {
+    width: 210px;
+    max-width: 100%;
+    padding-top: 15px;
+    margin-bottom: 20px;
+    padding-bottom: 5px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+.gallery-col img {
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    margin-top: 4px;
+    border: 1px solid #191414a3;
+    overflow: hidden;
+    width: 208px;
+    height: 174px;
+}
+.gallery-header {
+    padding-top: 6px;
+}
+.gallery-name {
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    cursor: pointer;
+    padding-top: 1px;
+    color: black;
+    
+}
+.gallery-name:hover{
+    color: #69edfc;
+}

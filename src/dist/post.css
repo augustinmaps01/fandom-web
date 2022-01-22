@@ -1,0 +1,83 @@
+
+.post-container {
+    width: 1920px;
+    max-width: 100%;
+    background: #f1f1f1;
+    padding-top: 10px;
+    box-sizing: border-box;
+}
+.post-wrapper {
+    width: 1000px;
+    max-width: 100%;
+    margin: 0 auto;
+    /* padding-left: 15px;
+    padding-right: 15px; */
+    box-sizing: border-box;
+    background: #fff;
+    margin-top: 10px;
+    padding-bottom: 20px;
+    box-sizing: border-box;
+
+}
+.title-post {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    box-shadow: #222222;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-bottom: 1px solid #5f5f5f3a;
+    box-shadow: 5px #222;
+    box-sizing: border-box;
+}
+.title-post h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    color: #222;
+    font-weight: 100;
+}
+.form-wrapper {
+    width: 559px;
+    max-width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    box-sizing: border-box;
+}
+.form-wrapper.form-control {
+    width: 20%;
+    border-radius: 25%;
+    -webkit-border-radius: 25%;
+    -moz-border-radius: 25%;
+    -ms-border-radius: 25%;
+    -o-border-radius: 25%;
+}
+.image-upload {
+    text-align: left;
+    box-sizing: border-box;
+
+}
+.image-upload>input {
+    display: none;
+
+  }
+  .img-upload {
+      width: 80px;
+    text-align: left;
+
+  }
+  Button {
+      text-align: center;
+      
+  }
+  .btn-primary {
+    width: 100%;
+  }
+ .img-prev {
+     text-align: center;
+     width: 1100px;
+     height: 500px;
+     max-width: 100%;
+ }

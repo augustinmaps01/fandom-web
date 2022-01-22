@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,900&display=swap');
+.main-container {
+    width: 1920px;
+    max-width: 100%;
+    margin: 0 auto;
+    background: #f1f1f1;
+}
+.blackpink {
+  border: 3px solid pink;
+  background: rgba(0, 0, 0, 0.802);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  
+  font-weight:Bolder;
+  font-size:30px;
+  font-family:  Helvetica, sans-serif;
+  color: pink;
+  margin: 0 auto;
+  width: 220px;
+}
+.redvelvet {
+    color:	#ff1212;
+    font-size:58px;
+    font-style: italic;
+    font-weight: 700;
+    font-family: 'Libre Baskerville', serif;
+    /* text-shadow: #eeeeee 3px 2px 2px; */
+    text-shadow: 2px 2px 0 #fdfdfd, 2px -2px 0 #fdfdfd, -2px 2px 0 #fdfdfd, -2px -2px 0 #fdfdfd, 2px 0px 0 #fdfdfd, 0px 2px 0 #fdfdfd, -2px 0px 0 #fdfdfd, 0px -2px 0 #fdfdfd;
+} 
+.twice {
+    font-size: 50px;
+    font-family: 'Roboto', sans-serif;
+    color:#6d0101bf;
+    background: rgba(34, 34, 34, 0.623);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin:0 auto;
+    width: 220px;
+    text-shadow: #eeeeee 1px 1px 1px;
+}
+.aespa{
+    font-size: 5em;
+    margin: 0 auto;
+    color: #e6e6e6;
+    text-shadow: 1px 1px 1px #919191,
+    1px 2px 1px #919191,
+    1px 3px 1px #919191,
+    1px 4px 1px #919191,
+    1px 5px 1px #919191,
+    1px 6px 1px #919191,
+    1px 7px 1px #919191,
+    1px 8px 1px #919191,
+    1px 9px 1px #919191,
+    1px 10px 1px #919191,
+1px 18px 6px rgba(16,16,16,0.4),
+1px 22px 10px rgba(16,16,16,0.2),
+1px 25px 35px rgba(16,16,16,0.2),
+1px 30px 60px rgba(16,16,16,0.4);
+font-style: italic;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}

@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;1,100;1,400&display=swap');
+.main-footer {
+    color:rgb(181, 172, 172);
+    font-family: Verdana;
+    background: #343a40;
+    padding-top: 3em;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    font-weight:lighter;
+
+}
+.footer-container {
+    width: 1200px;
+    max-width: 100%;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 40px;
+    box-sizing: border-box;
+    background: #343a40
+}
